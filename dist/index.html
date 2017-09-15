@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="appMvc" ng-strict-di>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Kindergarten</title>
+
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row" style="text-align: center;">
+            <img src="img/kinder2.png" width="100%">
+            <img src="img/kids.png" width="35%">
+        </div>
+    </div>
+    <div class="container-fluid" id="main">
+        <div class="container">
+            <!-- logo -->
+        </div>
+
+        <div ng-include="'app/kinder.html'"></div>
+
+    </div>
+
+
+    <div ng-include="'app/footer.html'"></div>
+
+
+    <script type="text/javascript" src="libs/vendor.js"></script>
+    <script type="text/javascript" src="app/main.js"></script>
+
+</body>
+
+</html>

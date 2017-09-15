@@ -1,0 +1,106 @@
+html {
+  height: 100%;
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  background: #F2F4F4 !important; }
+
+.container-fluid {
+  background-color: #F2F4F4;
+  padding: 50px; }
+
+#wrap {
+  padding: 0px 0px 50px 0px;
+  margin: 0px 0px 50px 0px; }
+
+.row {
+  margin-top: 50px; }
+
+#title, .subtitle {
+  font-family: "Times New Roman", Georgia, Serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 50px; }
+
+#tree, #select {
+  padding: 15px;
+  font-style: italic;
+  font-size: 20px; }
+
+.subtitle {
+  font-size: 30px; }
+
+.but {
+  position: relative;
+  top: -6px;
+  border: 0;
+  transition: all 40ms linear;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 2px;
+  margin-right: 2px; }
+
+.but:active:focus,
+.but:focus:hover,
+.but:focus {
+  -moz-outline-style: none;
+  outline: medium none; }
+
+.but:active, .but.active {
+  top: 2px; }
+
+.but.btn-danger {
+  box-shadow: 0 0 0 1px #b93802 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #AA0000, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+  background-color: #D73814; }
+
+.but.btn-danger:active, .but.btn-danger.active {
+  box-shadow: 0 0 0 1px #b93802 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+  background-color: #D73814; }
+
+.fa-check-square {
+  color: #2E7D32; }
+
+.fa-square {
+  color: #566573; }
+
+.fa-minus-square {
+  color: #566573; }
+
+ul {
+  list-style-type: none; }
+
+[ng\:cloak],
+[ng-cloak],
+[data-ng-cloak],
+[x-ng-cloak],
+.ng-cloak,
+.x-ng-cloak {
+  display: none !important; }
+
+#main {
+  padding: 50px; }
+
+#footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 50px;
+  background-color: #17202A;
+  color: #FDFEFE;
+  text-align: center; }
+
+#selections:hover {
+  background-color: #B2BABB; }
+
+#selections {
+  padding: 10px; }
